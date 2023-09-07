@@ -43,7 +43,7 @@ let cardCount = 0;
 // functions
 function appendNewCard() {
   const card = new Card({
-    content_text: judo_json[cardCount % 5],
+    content_text: judo_json[cardCount % 38],
     imageUrl: urls[cardCount % 5], // needs changing to accomidate more than 5 repeating cards
     onDismiss: appendNewCard,
     onLike: () => {
@@ -65,7 +65,8 @@ function appendNewCard() {
 }
 
 // first 5 cards
-for (let i = 0; i < 38; i++) {
+
+for (let i = 0; i < 5; i++) {
   appendNewCard();
 }
 
