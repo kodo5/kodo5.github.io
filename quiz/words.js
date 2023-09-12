@@ -1,0 +1,31 @@
+words = [
+    {eng:"Leg/Foot",jpn:"Ashi"},
+    {eng:"Lock",jpn:"Garami"},
+    {eng:"Hold",jpn:"Gatame"},
+    {eng:"Wheel",jpn:"Guruma"},
+    {eng:"Springing",jpn:"Hane"},
+    {eng:"Sweeping",jpn:"Harai"},
+    {eng:"Hip",jpn:"Goshi"},
+    {eng:"Reverse",jpn:"Gyaku"},
+    {eng:"Winding",jpn:"Makikomi"},
+    {eng:"Major",jpn:"O"},
+    {eng:"Outer",jpn:"Soto"},
+    {eng:"Gake",jpn:"Hook"},
+    {eng:"Drop",jpn:"Otoshi"},
+    {eng:"Sleeve",jpn:"Sode"},
+    {eng:"Corner",jpn:"Sumi"},
+    {eng:"Body",jpn:"Tai"},
+    {eng:"Lift",jpn:"Tsuri"},
+    {eng:"Lifting Drawing",jpn:"Tsuri komi"},
+    {eng:"Inside",jpn:"Uchi"},
+    {eng:"Thigh",jpn:"Mata"},
+    {eng:"Arm",jpn:"Ude"},
+    {eng:"Roll",jpn:"Gaeshi"},
+    {eng:"Floating",jpn:"Uki"},
+    {eng:"Rear",jpn:"Ura"},
+    {eng:"Backwards",jpn:"Ushiro"},
+    {eng:"Armpit",jpn:"Waki"},
+    {eng:"Side",jpn:"Yoko"}
+
+  
+];
