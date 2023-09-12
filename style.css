@@ -24,15 +24,18 @@ body{
     text-align:justify;
     /* text-shadow: -1px 0 5px #15dab2, 0 1px 5px #00ca4d, 1px 0 5px #00ca9b, 0 -1px 5px #00ca80; */
     /* filter: invert(1); */
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
+    mix-blend-mode:color-dodge;
+    color: pink;
+   
+    text-shadow: 10px 10px yellow;
     
-    text-shadow: 10px 10px blue;
     
 }
 
 .nav-div{
     text-align: left;
-    color: red;
+    /* color: red; */
     height: 20%;
 }
 
