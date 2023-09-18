@@ -19,7 +19,7 @@ function make_card(content_details){
     // img.style = 'visibility: hidden;';
     
     const h2 = document.createElement('h2');
-    var textnode = document.createTextNode(content_details.name);
+    var textnode = document.createTextNode(content_details.throw);
     h2.append(textnode);
 
     const h3 = document.createElement('h3');
@@ -42,7 +42,7 @@ function make_card(content_details){
 var container = document.getElementById("container");
 console.log(container);
 
-for (let i = 0; i < 38; i++) {
+for (let i = 0; i < 68; i++) {
     var card = make_card(judo_json[i]);
     console.log(card);
     console.log(judo_json[i]);

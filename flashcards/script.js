@@ -21,21 +21,7 @@ var judo_json = judo_json
 .sort((a, b) => a.sort - b.sort)
 .map(({ value }) => value)
 
-// const content = [
-//   'A',
-//   'B',
-//   'C',
-//   'D',
-//   'E'
-// ];
 
-// const content_details_x = [
-//   {text:'de',char:'的',translation:'(possessive particle), of / really and truly / aim, clear'},
-//   {text:'yī',char:'一',translation:'one / single / a(n)'},
-//   {text:'shì',char:'是',translation:'is, are, am, yes to be'},
-//   {text:'bù',char:'不',translation:'(negative prefix) no, not'},
-//   {text:'le',char:'了',translation:'(modal particle intensifying preceding clause), (past tense marker) / to know, to understand, to know'},
-// ]
 
 // variables
 let cardCount = 0;

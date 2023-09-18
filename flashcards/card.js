@@ -159,11 +159,11 @@ class Card {
 
     const img = document.createElement('img');
     img.src = content_details.img;
-    img.decoding = "async"
+    // img.decoding = "async"
     img.style = 'visibility: hidden;';
     
     const h2 = document.createElement('h2');
-    var textnode = document.createTextNode(content_details.name);
+    var textnode = document.createTextNode(content_details.throw);
     h2.append(textnode);
 
     const h3 = document.createElement('h3');
