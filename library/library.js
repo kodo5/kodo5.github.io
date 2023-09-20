@@ -38,9 +38,13 @@ function make_card(content_details){
     return card
   }
 
+
+
 // first 5 cards
 var container = document.getElementById("container");
 console.log(container);
+
+// var waza_types = ["Te-waza","Koshi-waza","Ashi-Waza","Ma-Sutemi-Waza","Yoko-Sutemi-Waza"];
 
 for (let i = 0; i < 68; i++) {
     var card = make_card(judo_json[i]);

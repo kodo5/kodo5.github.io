@@ -21,6 +21,7 @@ var syllabus = {
     ],
     "green":[
         "Harai-goshi",
+        "Hane-goshi",
         "Uchi-mata",
         "Ko-uchi-gake",// no gif ? 
         "Hiza-guruma",
