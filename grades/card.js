@@ -157,11 +157,25 @@ class Card {
     // var textnode = document.createTextNode(content_details.character);
     // h1.append(textnode);
 
-    const img = document.createElement('img');
-    img.src = content_details.img;
+// {/* <video autoplay="autoplay" loop="loop" width="400" height="300">
+//   <source src="video.mp4" type="video/mp4" />
+//   <img src="video.gif" width="400" height="300" />
+// </video> */}
+    const img = document.createElement('video');
+
+    // make the img a vid
+    img.autoplay = 'autoplay';
+    img.loop = 'loop';
+
+    const src_tag = document.createElement("source");
+    src_tag.src = content_details.img;
+    src_tag.type = "video/mp4"
+    img.append(src_tag);
+
+    // img.src = content_details.img;
     // img.decoding = "async"
-    img.style = 'visibility: hidden;';
-    
+    img.style = 'width:100%; height:auto; visibility: hidden; ';
+    console.log(img.style);
     const h2 = document.createElement('h2');
     var textnode = document.createTextNode(content_details.throw);
     h2.append(textnode);
@@ -184,7 +198,7 @@ class Card {
     this.element.addEventListener('click', (e) => {
       // console.log(this.element);
    
-      this.element.getElementsByTagName("img")[0].style = 'visibility: visible;'
+      this.element.getElementsByTagName("video")[0].style = 'visibility: visible;  width:100%; height:auto;'
       this.element.getElementsByTagName("h3")[0].style = 'visibility: visible;'
     });
   }

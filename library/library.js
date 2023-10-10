@@ -13,9 +13,18 @@ function make_card(content_details){
     // var textnode = document.createTextNode(content_details.character);
     // h1.append(textnode);
 
-    const img = document.createElement('img');
-    img.src = content_details.img;
-    img.decoding = "async"
+    const img = document.createElement('video');
+    img.style = 'width:100%; height:auto';
+    img.autoplay = 'autoplay';
+    img.loop = 'loop';
+
+    const src_tag = document.createElement("source");
+    src_tag.src = content_details.img;
+    src_tag.type = "video/mp4"
+    img.append(src_tag);
+
+    // img.src = content_details.img;
+    // img.decoding = "async"
     // img.style = 'visibility: hidden;';
     
     const h2 = document.createElement('h2');
