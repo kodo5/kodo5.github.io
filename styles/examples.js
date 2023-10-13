@@ -1,24 +1,24 @@
 examples = {
     "Seoi-nage":[
-        "ABE-Hifumi_Eri-Seoi-Nage_CNJVJ.gif",
-        "ABE-Hifumi_Eri-Seoi-Nage_FXZJD.gif"
+        "ABE-Hifumi_Eri-Seoi-Nage_CNJVJ.mp4",
+        "ABE-Hifumi_Eri-Seoi-Nage_FXZJD.mp4"
     ],
-    "Koshi-guruma":["ABE-Hifumi_Koshi-Guruma_VRGON.gif"],
-    "Kouchi-makikomi":["ABE-Hifumi_Kouchi-Makikomi_YVHNV.gif"],
-    "O-goshi":["ABE-Hifumi_O-Goshi_FDGDP.gif"],
+    "Koshi-guruma":["ABE-Hifumi_Koshi-Guruma_VRGON.mp4"],
+    "Kouchi-makikomi":["ABE-Hifumi_Kouchi-Makikomi_YVHNV.mp4"],
+    "O-goshi":["ABE-Hifumi_O-Goshi_FDGDP.mp4"],
     "Osoto-gari":[
-        "ABE-Hifumi_Ouchi-Gari_ATTFR.gif",
-        "ABE-Hifumi_Osoto-Gari_TVUHW.gif",
-        "ABE-Hifumi_Osoto-Gari_VWXYZ.gif",
-        "ABE-Hifumi_Osoto-Gari_WHEJC.gif",
-        "ABE-Hifumi_Ouchi-Gari_HIACP.gif"
+        "ABE-Hifumi_Ouchi-Gari_ATTFR.mp4",
+        "ABE-Hifumi_Osoto-Gari_TVUHW.mp4",
+        "ABE-Hifumi_Osoto-Gari_VWXYZ.mp4",
+        "ABE-Hifumi_Osoto-Gari_WHEJC.mp4",
+        "ABE-Hifumi_Ouchi-Gari_HIACP.mp4"
     ],
     "Sode-Tsurikomi-Goshi":[
-        "ABE-Hifumi_Sode-Tsurikomi-Goshi_AGNYI.gif",
-        "ABE-Hifumi_Sode-Tsurikomi-Goshi_EZMPT.gif"
+        "ABE-Hifumi_Sode-Tsurikomi-Goshi_AGNYI.mp4",
+        "ABE-Hifumi_Sode-Tsurikomi-Goshi_EZMPT.mp4"
     ],
     "Uchi-makikomi":[
-        "ABE-Hifumi_Uchi-Makikomi_QUHDT.gif"
+        "ABE-Hifumi_Uchi-Makikomi_QUHDT.mp4"
     ]
 
 }

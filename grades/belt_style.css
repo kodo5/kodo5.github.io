@@ -5,7 +5,8 @@
     /* align-items: center; */
     height: 100vh;
 
-    background-image: url("/imgs/belts-bg.gif");
+    /* background-image: url("/imgs/belts-bg.gif"); */
+    background-color: darkslategray;
     background-attachment: fixed;
     background-repeat: repeat;
     background-size: cover;
