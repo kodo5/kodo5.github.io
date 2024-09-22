@@ -7,10 +7,10 @@ examples = {
     "Kouchi-makikomi":["ABE-Hifumi_Kouchi-Makikomi_YVHNV.mp4"],
     "O-goshi":["ABE-Hifumi_O-Goshi_FDGDP.mp4"],
     "Osoto-gari":[
-        "ABE-Hifumi_Ouchi-Gari_ATTFR.mp4",
+        // "ABE-Hifumi_Ouchi-Gari_ATTFR.mp4",
         "ABE-Hifumi_Osoto-Gari_TVUHW.mp4",
         "ABE-Hifumi_Osoto-Gari_VWXYZ.mp4",
-        "ABE-Hifumi_Osoto-Gari_WHEJC.mp4",
+        // "ABE-Hifumi_Osoto-Gari_WHEJC.mp4",
         "ABE-Hifumi_Ouchi-Gari_HIACP.mp4"
     ],
     "Sode-Tsurikomi-Goshi":[

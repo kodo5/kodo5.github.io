@@ -11,6 +11,7 @@ function make_link(throw_name){
     h1.append(textnode);
 
     a.href = "/styles/?throw=" + throw_name
+
     a.append(h1)
     return a
 

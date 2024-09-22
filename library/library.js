@@ -21,7 +21,7 @@ function make_card(content_details){
     const src_tag = document.createElement("source");
     src_tag.src = content_details.img;
     src_tag.type = "video/mp4"
-    img.append(src_tag);
+    // img.append(src_tag);
 
     // img.src = content_details.img;
     // img.decoding = "async"
@@ -41,7 +41,7 @@ function make_card(content_details){
     card.append(h3);
 
     card.addEventListener("click", function(e) {
-        alert(1);
+        window.location.href = content_details["img"];
     }, false);
     
     return card
